@@ -1,0 +1,87 @@
+/* Common Utilites Style */
+
+/* Margin Units */
+.mt-2 {
+  margin-top: 2px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-2 {
+  margin-bottom: 2px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.ml-100 {
+  margin-left: 100px;
+}
+
+.ml-150 {
+  margin-left: 150px;
+}
+
+/* Padding units */
+.pt-5 {
+  padding-top: 5px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pb-5 {
+  padding-bottom: 5px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}

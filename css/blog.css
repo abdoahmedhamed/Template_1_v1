@@ -1,0 +1,343 @@
+/* Css File Index */
+/*
+1- Header Section
+2- Breadcrumb Section
+3- Content Section
+*/
+
+/* Common Styles */
+:root{
+  --fontSize12:12px;
+  --fontSize15:15px;
+  --fontSize20:20px;
+}
+
+.blog-section-header{
+  text-align-last: left;
+  margin-top: 50px;
+}
+
+.blog-section-title{
+  font-size: var(--fontSize20);
+  text-transform: uppercase;
+}
+
+.blog-section-title:after{
+  margin: 20px 0;
+  content: "";
+  width: 30px;
+  height: 5px;
+  background-color: rgb(79, 126, 255);
+  display: block;
+}
+
+/* Header Section */
+.header {
+  background-color: #ffffff;
+}
+
+.header .nav > li > a {
+  color: #000;
+}
+
+/* Breadcrumb Section */
+.breadcrumb {
+  background-color: #fff8f8;
+}
+
+.breadcrumb-title {
+  width: 75%;
+  float: left;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.breadcrumb-list {
+  width: 25%;
+  float: left;
+  list-style: none;
+  text-align: center;
+}
+
+.breadcrumb-list li {
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: capitalize;
+}
+
+.breadcrumb-list li + li::before {
+  padding: 5px;
+  color: #000;
+  content: "/\00a0";
+}
+
+.breadcrumb-list li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Content Section */
+/* Left Content */
+.left-content {
+  float: left;
+  width: 75%;
+}
+
+.blog-card {
+  width: 100%;
+  float: none;
+}
+
+.tags-inline .tags-title {
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+ .tags-list {
+  list-style: none;
+  display: inline;
+}
+
+.tags-inline .tags-list li {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #eee;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.tags-inline .tags-list li .icon {
+  color: #0275d8;
+  transition: color 0.5s;
+}
+
+.tags-inline .tags-list li:hover,
+.tags-inline .tags-list li:hover .icon {
+  color: #ffffff;
+}
+
+.tags-inline .tags-list li:hover {
+  background-color: #0275d8;
+}
+
+.bloger-card {
+  position: relative;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.bloger-card-image {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.bloger-info-title {
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+
+.bloger-name {
+  width: 20%;
+  float: left;
+  text-transform: uppercase;
+}
+
+.bloger-list {
+  width: 80%;
+  float: left;
+  list-style: none;
+  text-align: right;
+}
+
+.bloger-list li {
+  display: inline-block;
+}
+
+.bloger-info-desc {
+  color: #999;
+}
+
+.comments-content {
+  border: 1px solid #eee;
+}
+
+.comment-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.comment-card:first-child {
+  border-bottom: 1px solid #eee;
+}
+
+.comment-card-image {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.comment-card-info{
+  position: relative;
+}
+
+.comment-info-title {
+  display: inline-block;
+
+}
+
+.commenter-name {
+  display: inline;
+  text-transform: uppercase;
+}
+
+.comment-info-time {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.comment-card-info a {
+  position: absolute;
+  right:5px;
+  top: 5px;
+  text-transform: uppercase;
+  color: #0275d8;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.comment-info-desc {
+  color: #999;
+  line-height: 1.5;
+}
+
+.comment-reply .comment-card {
+  border: 1px solid #eee;
+}
+
+.form-reply {
+  position: relative;
+}
+
+.form-reply input,
+.form-reply textarea {
+  font-size: 15px;
+  line-height: 18px;
+  color: #999;
+}
+
+.form-reply input {
+  width: 49%;
+}
+
+.form-reply input[type="email"] {
+  position: absolute;
+  right: 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+  text-transform: capitalize;
+}
+
+.btn-submit {
+  background-color: rgb(79, 126, 255);
+  color: #fff;
+}
+
+/* Right Content */
+.right-content {
+  float: left;
+  width: 25%;
+}
+
+.form-search {
+  background-color: #0275d8;
+  position: relative;
+}
+
+.search-box {
+  width: 100%;
+  color: #999;
+  font-size: 12px;
+}
+
+.form-search .icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #0275d8;
+}
+
+.category-list {
+  list-style: none;
+  border-top: 1px solid #eee;
+}
+
+.category-list li {
+  border-bottom: 1px solid #eee;
+  text-transform: capitalize;
+  position: relative;
+  transition: color 0.5s;
+  font-size: 12px;
+  color:rgba(0, 0, 0, 0.6)
+}
+
+.category-list li:hover {
+  color: #0275d8;
+}
+
+.category-list span {
+  color: #0275d8;
+  position: absolute;
+  right: 5px;
+}
+
+.populare-card{
+  position: relative;
+  overflow: hidden;
+}
+
+.populare-image{
+  width: 85px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.populare-info-title{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.populare-info-title::first-letter{
+  text-transform: capitalize;
+}
+
+.populare-info-date{
+font-size: 12px;
+color:#0275d8;
+text-transform: capitalize;
+}
+
+.tags .tags-list li {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: #eee;
+  font-size: 12px;
+  text-transform: capitalize;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.tags .tags-list li:hover {
+  background-color: #0275d8;
+  color: #fff;
+}
